@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body style="position: relative;">
+    <div class="confirmcontact | hidden" style="position: fixed;">
+        <button id="closeButton" onclick="closeForm()">close</button>
+        <div>
+            <h1>Full Name: <span id="namefield" class="fieldinput"></span></h1>
+            <h1>Email: <span id="emailfield" class="fieldinput"></span></h1>
+            <h1>Message: <span id="messagefield" class="fieldinput"></span></h1>
+        </div>
+        <div class="containerConfirm">
+            <button id="handleConfirm">OKAY</button>
+        </div>
+    </div>
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logonew.png" style="width: 130px; margin-top: 5px"
+            /></a>
+          </div>
+          <ul id="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+          <div id="menubutton" class="hidden">
+            <img src="images/menu.png" alt="" />
+          </div>
+          <div class="mobilemenu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Thank you for your interest in our law firm. We welcome the opportunity to assist you with your legal needs. To get in touch with us, please use the contact form below or reach out to us directly using the provided contact information.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>123 Anywhere St. <br/> Any City ST 12345 </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="text">
+                        <h3>Phone</h3>
+                        <p>(123) 456-7890</p>
+                    </div> 
+                </div> 
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>myronlawfirm@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form id="myForm">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name"required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required="required" name="message"></input>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </section>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="contactus.html">Contact us</a></li>
+                            <li><a href="copyright.html">Copyright notice</a></li>
+                            <li><a href="privacy.html">privacy policy</a></li>
+                            <li><a href="disclaime.html">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="consultation.html">Get a Free Consultation</a></li>
+                            <li><a href="request.html">Request Legal Assistance</a></li>
+                            <li><a href="attorney.html">Contact our Attorneys</a></li>
+                            <li><a href="legal.html">Seek Legal Advice</a></li>
+                            <li><a href="book.html">Book a meeting with us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                      <h4>Offices</h4>
+                      <ul>
+                        <li><a href="mainbranch.html">Main Office</a></li>
+                        <li><a href="branch1.html">Branch Office 1</a></li>
+                        <li><a href="branch1.html">Branch Office 2</a></li>
+                        <li><a href="branch1.html">Branch Office 3</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                      <h4>follow us</h4>
+                      <div class="social-links">
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/login" target="_blank"><i class="fab fa-linkedin-in"></i></a>   
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <script src="navbar.js"></script>
+      <script src="contact.js"></script>
+</body>
+</html>
